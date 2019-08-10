@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>[book] 소프트웨어 장인  ➀애자일 – 오늘의 공기 – 오늘의 공부 기록</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="
+
+" />
+    <meta property="og:description" content="
+
+" />
+    
+    <meta name="author" content="오늘의 공기" />
+
+    
+    <meta property="og:title" content="[book] 소프트웨어 장인  ➀애자일" />
+    <meta property="twitter:title" content="[book] 소프트웨어 장인  ➀애자일" />
+    
+    <!-- Async font loading -->
+<script>
+  window.WebFontConfig = {
+      custom: {
+          families: ['Spoqa Han Sans:100,300,400,700'],
+          urls: ['https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css']
+      },
+      timeout: 60000
+  };
+  (function(d) {
+      var wf = d.createElement('script'), s = d.scripts[0];
+      wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js';
+      s.parentNode.insertBefore(wf, s);
+  })(document);
+</script>
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/style.css"/>
+    <link rel="alternate" type="application/rss+xml" title="오늘의 공기 - 오늘의 공부 기록"
+          href="/feed.xml"/>
+    <link rel="shortcut icon" type="image/gif" href="/images/favicon/flip-flops-sports-and-competition-pngrepo-com.png">
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+</head>
+  <body>
+    <div class="wrapper-masthead">
+  <div class="container">
+    <header class="masthead clearfix">
+      
+        <a href="/" class="site-avatar"><img src="https://media.giphy.com/media/jxdv8nWt1uvhy4mAG4/giphy.gif" /></a>
+      
+
+      <div class="site-info">
+        <h1 class="site-name"><a href="/">오늘의 공기</a></h1>
+        <p class="site-description">오늘의 공부 기록</p>
+      </div>
+
+      <nav>
+        
+        
+        <a href="/">Blog</a>
+        
+        
+        
+        <a href="/about">About</a>
+        
+        
+        
+        <a href="/archive">Archive</a>
+        
+        
+        
+        <a href="/tags">Tags</a>
+        
+        
+      </nav>
+    </header>
+  </div>
+</div>
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+  <h1>[book] 소프트웨어 장인  ➀애자일</h1>
+
+  <div clsss="meta">
+    <span class="date">
+      2018-07-19
+    </span>
+
+    <ul class="tag">
+      
+      <li>
+        <a href="http://localhost:4000/tags#TIR">
+          TIR
+        </a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:4000/tags#소프트웨어 장인">
+          소프트웨어 장인
+        </a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:4000/tags#애자일">
+          애자일
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+
+  <div class="entry">
+    <!--more-->
+
+<hr />
+
+<h2 id="tir">TIR</h2>
+
+<p>두달 전, 우아한형제들의 인턴을 지원했었다. 개발서 중 읽었던 책 중 <strong>중요하다</strong>고 생각하는 3권과 그 이유를 적으라는 문항이 나를 당황스럽게 만들었다. 돌아보니 죄다 언어와 관련된 책들 뿐이었다. 시중에 나와있는 수많은 언어책 들 중 내가 읽은게 정말 중요하다고 어필할 수가 없었다. 기술은 끊임없이 업데이트되고 있었고, 내가 읽었던 책들은 낡은 지식이 되어가고 있었다.</p>
+
+<p>이 문항은 두달 후 나에게 기술과 관련된 책이 아니라, 개념에 대한 책을 찾아보게 만들었다.<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup></p>
+
+<p>하지만 독서도 기록을 해야 더 오래 기억에 남는 법. <code class="highlighter-rouge">TIL</code>을 본 따, <code class="highlighter-rouge">TIR, Today I Read</code>도 해보면 어떨까 생각이 들었다. 매일 읽고 기록하고 싶다.</p>
+
+<h1 id="part-1-이념과-태도">Part 1 이념과 태도</h1>
+
+<h2 id="21세기의-소프트웨어-개발">21세기의 소프트웨어 개발</h2>
+
+<blockquote>
+  <p>1990년 대에는 난해한 코드를 만들 수 있는 능력이 개발자의 실력을 가늠하는 척도였다고 한다.</p>
+</blockquote>
+
+<p>타인도 이해할 수 있는 코드를 짜야한다고 어디선가 주워들은 적이 있다. 그 때는 ‘그렇겠다. 같이 하는 일인데…’ 끄덕이고 넘어갔던 일이, 그 후 몇 번의 협업을 통해 정말 중요하다고 깨닫게 되었다. 아직도 기본을 위해 걸어야할 길이 많이 남아있지만, 남들이 이해하기 쉬운 코드를 짜고 싶다.</p>
+
+<blockquote>
+  <p>아침에 눈을 뜰 때마다 오늘 할 일이 하고 싶어 기대되는 일만 하기로 스스로와 약속했다.</p>
+</blockquote>
+
+<blockquote>
+  <p>정리하면 커리어 패스를 정할 때는 내가 열정이 있는 것, 진정 즐겁게 할 수 있는 것을 따라야한다.</p>
+</blockquote>
+
+<p>초반부에는 이런 말들이 있다. 자기 개발서 같은 시작이 마음에 든다. 당연한 말들이 와닿는 건 모두가 알고 있으면서도, 그렇게 살아가는 게 힘들어서가 아닐까. ( t.m.i. 13년도 이후 자기계발서는 잘 안읽는다. 어떤 일이든 행동이 제일 중요하다는 걸 깨달았다)</p>
+
+<h3 id="고참개발자">고참개발자</h3>
+
+<blockquote>
+  <p>10년 동안, 다른 프로젝트, 다른 기술, 다른 회사에서 일한 것과 10년 동안 같은 회사, 같은 프로젝트, 같은 사람, 같은 기술로만 일한 것은 크게 다르다.</p>
+</blockquote>
+
+<p>이 말을 따르면, 개발자라는 직업은 <strong>이직</strong>이 강점으로 다가올 수도 있을까?</p>
+
+<h3 id="새로운-현실">새로운 현실</h3>
+
+<blockquote>
+  <p>코딩은 개발자가 해야 하는 많은 일들 중에 하나일뿐이다. 코딩을 잘 하거나 특정 언어나 프레임워크에 매우 익숙하다고 해서 고참 개발자가 되는 것은 아니다.</p>
+</blockquote>
+
+<p>RGRG~ 코딩에 자신감이 조금 부족하고, 다른 외향적인 것들에 <strong>강점</strong>을 가진 내가 위로받는 문구였다. 그런데 뒷부분에 <code class="highlighter-rouge">당연히 잘해야하는 것</code>처럼 나와있었다. 설레발이었다. 개발을 조금 못해도 괜찮을거라는(?) 희망이 와르륵 무너졌다. 생각해보면, 개발을 못하는 개발자는 말이 안된다. 저자는 개발을 <strong>기본으로</strong> 다음과 같은 <strong>여러 가지</strong>를 할 수 있어야 한다고 말한다.</p>
+
+<blockquote>
+  <ul>
+    <li>고객과 대화하기</li>
+    <li>테스트/배포 자동화하기</li>
+    <li>전체 비즈니스에 영향을 미칠 기술 선정하기</li>
+    <li>지리적으로 분산된 팀들과 협업하기</li>
+    <li>고객을 도와 필요한 작업을 정의하기</li>
+    <li>우선순위 선정하기</li>
+    <li>진척 상황 보고하기</li>
+    <li>변경사항과 기대일정 관리하기</li>
+    <li>잠재 고객 및 파트너에게 제품 소개하기</li>
+    <li>사전 영업 활동 지원하기</li>
+    <li>개발 일정과 비용 산출하기</li>
+    <li>채용 면접하기</li>
+    <li>아키텍처 설계하기</li>
+    <li>비기능적 요구사항과 계약 조건(SLAS) 검토하기</li>
+    <li>사업 목표 이해하기</li>
+    <li>주어진 여건에서 최적의 결정하기</li>
+    <li>새로운 기술 주시하기</li>
+    <li>더 나은 업무 방식 찾기</li>
+    <li>고객에게 가치 있는 상품이 전달되고 있는지 고민하기</li>
+  </ul>
+</blockquote>
+
+<p>이 많은 것을 어우르는 개발자가 되길 소망한다.</p>
+
+<h2 id="애자일">애자일</h2>
+
+<blockquote>
+  <p>애자일은 어떤 단일 개념이 아니라, 서로 다른 <strong>여러 맥락에 따른 방법론과 테크닉의 조합</strong>이다. 소프트웨어 프로젝트는 변화 자체가 기본 속성이고, 애자일은 개발팀과 기업들이 그러한 변화에 적응할 수 있도록 변화와 관련된 위험들을 줄인다.</p>
+</blockquote>
+
+<p>작년 소프트웨어 공학 때 처음 애자일에 대한 개념을 접했다. 그 당시 시험으로 암기를 했었는데, 문제에 대한 답을 적을 순 있어도 설명하기 어려웠다. 이번 독서가 애자일이 무엇인지 설명할 수 있는 계기가 되었으면 좋겠다.</p>
+
+<p><img src="/images/postImages/TIR/tir-1.jpg" alt="why" /></p>
+
+<h3 id="절차적인-관점에서의-애자일-원칙">절차적인 관점에서의 애자일 원칙</h3>
+
+<blockquote>
+  <p>팀과 조직이 어떻게 구성되고 협업해야하는지에 대한 것들을 규정한다.</p>
+</blockquote>
+
+<blockquote>
+  <ul>
+    <li>회의 방식</li>
+    <li>구성원 각각의 역할</li>
+    <li>요구사항 파악 방법</li>
+    <li>작업 진척 속도 파악 방법</li>
+    <li>점진적/반복적으로 일할 때 취하는 방식</li>
+    <li>진행 상황을 개발팀 밖의 관계자(고객, 영업 등)에게 전달하는 방식</li>
+    <li>비즈니스 피드백 방식</li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <p>애자일 원칙의 절차적인 부분들은 팀에 정말로 중요한 것, 비즈니스에 가치가 있는 것에 집중한다. 이러한 방법론들을 통해 팀이 올바른 결과물을 만들어가는지, 즉 <strong>올바른 목표를 향해 진행 중</strong>인지 확인할 수 있다.</p>
+</blockquote>
+
+<h3 id="기술적인-관점에서의-애자일-원칙">기술적인 관점에서의 애자일 원칙</h3>
+
+<blockquote>
+  <p>애자일 원칙의 기술적인 부분들은 개발, 확장, 유지보수, 제품을 출시(또는 납품, 서비스 배포)하면서 겪는 어려움들에 대해 특정한 기술적 관례나 기술자체를 매우 구체적으로 가이드한다. <strong>테스트 주도 개발(TDD), 페어 프로그래밍, 지속적인 통합, 단순한 디자인 원칙</strong> 등과 같은 것이다. 이러한 기술적 원칙들은 소프트웨어의 품질에 집중하면서 팀이 결과물을 올바르게 만들어 가는지, 즉 <strong>목표한 것을 올바르게 실행하고 있는지</strong>에 대해 안심할 수 있게 한다.</p>
+</blockquote>
+
+<h3 id="애자일을-따른다는-것">애자일을 따른다는 것</h3>
+
+<blockquote>
+  <p>애자일 방법론들은 모두 빠르고 짧은 피드백 루프에 대한 것이다. 더 빨리, 더 짧게 피드백 루프를 만들수록 더 애자일해진다.</p>
+</blockquote>
+
+<blockquote>
+  <p>애자일은 문제 자체를 해결해 주지는 않는다. 애자일은 문제를 드러나게 한다.</p>
+</blockquote>
+
+<blockquote>
+  <p>애자일에서는 프로젝트 시작 첫 주부터 동작하는 소프트웨어를 만든다</p>
+</blockquote>
+
+<blockquote>
+  <p>오늘날에는 테스트, 분석, 비즈니스에 대한 이해, 커뮤니케이션 능력, 보다 외향적인 성격을 소프트웨어 프로페셔널에게 요구한다</p>
+</blockquote>
+
+<h3 id="애자일-매니페스토">애자일 매니페스토</h3>
+
+<blockquote>
+  <p>우리는 스스로 소프트웨어를 개발하고, 다른 사람들이 개발하는 것을 도와주면서 더 나은 소프트웨어 개발 방법들을 찾고 있다. 이 과정에서 우리는 다음과 같은 가치를 중요하게 생각한다.</p>
+
+  <p>절차와 도구보다는 <strong>개성과 화합을</strong></p>
+
+  <p>방대한 문서작업보다는 <strong>동작하는 소프트웨어를</strong></p>
+
+  <p>계약 조건에 대한 협상보다는 <strong>고객과의 협력을</strong></p>
+
+  <p>계획을 따르는 것을 넘어서서 <strong>변화에 대처하는 것을</strong></p>
+
+  <p>더 가치있게 여긴다.</p>
+
+  <p>좌측의 사항도 가치가 있음을 인정하지만 우리는 우측의 사항에 더 높은 가치를 둔다는 것이다.</p>
+</blockquote>
+
+<p>이런 가치관을 가지고 있는 사람들과 일하고 싶다. 무의식 속에 보통의 회사에서는 좌측의 사항에 맞추어 돌아가고, 그럴 수 밖에 없다고 느껴진다. 이익을 추구하는 집단에서 개성과 화합에 가치를 둔다는 말보다 절차와 도구에 가치를 둔다는 말이 더 와닿기 때문이다.</p>
+
+<p>그래서 애자일 매니페스토 웹사이트에 실린 위의 내용이 인상적이다.  우측의 사항이 좌측의 사항보다 더 효율적일 수 있다고 보는 시각이 이제까지 현업에서 겪었던 고충에 대한 해결 방안 중에 하나가 아닐까.</p>
+
+<h5 id="애자일-매니페스토의-원칙들">애자일 매니페스토의 원칙들</h5>
+
+<blockquote>
+  <ol>
+    <li>가치있는 소프트웨어를 일찍, 지속적으로 전달하여 고객을 만족시키는 것을 최우선으로 한다.</li>
+    <li>개발의 막바지 단계이더라도 고객의 요구사항 변경을 환영한다. 애자일 프로세스들은 변화를 활용하여 고객의 경쟁력을 높이는 데 기여한다.</li>
+    <li>동작하는 소프트웨어를 몇 주에서 몇 개월 단위로 자주 전달한다. 가능한 한 전달주기를 짧게 한다.</li>
+    <li>비즈니스 담당자들은 프로젝트 기간 내내 매일 개발자와 함께 일한다.</li>
+    <li>프로젝트는 동기가 부여된 개인들로 구성한다. 그들이 필요로 하는 환경과 지원을 제공하고 프로젝트가 완료될 때까지 믿고 맡긴다.</li>
+    <li>개발팀 내에서 정보를 전달하는 가장 효율적이고 효과적인 방법은 얼굴을 마주보고 대화하는 것이다.</li>
+    <li>프로젝트의 진척도를 가늠하는 가장 기본 요소는 동작하는 소프트웨어다.</li>
+    <li>애자일 프로세스들은 지속 가능한 개발을 이끈다. 투자자, 개발자, 사용자들은 일정한 개발속도를 계속 수용할 수 있어야 한다.</li>
+    <li>기술적인 탁월함과 좋은 설계에 대한 지속적인 관심은 기민함을 높인다.</li>
+    <li>단순함, 즉 하지 않아도 될 일은 최대한 하지 않아야 한다.</li>
+    <li>최선의 아키텍처, 요구사항, 설계는 스스로 조직화되는 팀에서 나온다.</li>
+    <li>개발팀은 정기적으로 일을 어떻게 하는 것이 더 효과적인지 되돌아보고 그에 맞추어 일하는 방식을 조율하고 바로 잡는다.</li>
+  </ol>
+</blockquote>
+
+<h3 id="애자일-격변기">애자일 격변기</h3>
+
+<blockquote>
+  <p>애자일 코치는 (중략) 기업들의 어떤 부분이 비효율적인지 가시화하고 이해할 수 있게 된다.</p>
+</blockquote>
+
+<p>문제를 가시화하는 것은 중요하다. 해결 방안을 모색하는 출발점이 되기 때문이다.</p>
+
+<blockquote>
+  <p>애자일 프로세스는 팀 구성원이 단합하고 공동의 목표를 갖도록 한다.  (중략) 피드백 루프 매커니즘을 제공하여 어느 때나 문제에 대응하고 적응할 수 있도록 해준다.</p>
+</blockquote>
+
+<h3 id="애자일-행오버">애자일 행오버</h3>
+
+<blockquote>
+  <p>화이트보드에 포스트잇이 얼마나 많이 붙어 있느냐가 애자일 전환의 척도, 즉 얼마나 기민해졌느냐를 재는 기준이 되었다. 포스트잇이 많을수록 더 애자일 스럽게 일하고 생각한다. 애자일에 숙력된 기업들이 포스트잇을 색상과 크기에 따라 서로 다른 의미를 부여하여 잘 활용하고 있는 것은 사실이다.</p>
+</blockquote>
+
+<h5 id="부분적인-전환">부분적인 전환</h5>
+
+<p>이 부분에서는 애자일로 전환이 효과가 없었던 기업의 원인으로  ‘부분적인 전환’을 꼽는다.</p>
+
+<blockquote>
+  <p>소프트웨어 프로젝트에서 <strong>가장 중요한 결과물이 소프트웨어 자체</strong></p>
+</blockquote>
+
+<blockquote>
+  <p>‘개발자들은 이미 훌륭하고 절차만 개선하면 된다’ 는 단편적인 가정으로 사람들에 대한 기술적인 훈련에는 큰 관심을 두지 않고 절차만 개선하고, 기존의 똑같은 개발자, 똑같은 습관을 가진 사람들이 갑자기 멋진 소프트웨어를 만들기 시작할 것이라 믿는다</p>
+</blockquote>
+
+<blockquote>
+  <p>모든 단계마다 피드백이 있다는 전제에서만 절차의 개선으로 제품이 나아진다. 피드백 시스템이 동작하려면 자기가 하는 일에 충분히 주의를 기울이고 뭔가 잘못되고 있거나 더 나은 방법이 있다고 느낄 때 자기 목소리를 내는 재능 있고 프로페셔널한 사람들이 있어야 한다. 절차에만 집중하고 소프트웨어 개발을 공장 라인처럼 취급하면, 그저 시키는 일만 하고 출퇴근하는 공장 노동자와 다를 바 없는 개발자들만 생긴다. 이렇게 되면 비효율적인 피드백 시스템이 되어 전체 프로젝트에 해를 끼친다.</p>
+</blockquote>
+
+<blockquote>
+  <p>애자일의 배경이 되는 기본 원칙은 기술적 탁월함이다. 애자일의 모든 절차들에는 기술적 탁월함이 전제되어 있다.</p>
+</blockquote>
+
+<h4 id="애자일-코치">애자일 코치</h4>
+
+<blockquote>
+  <p>궁극적인 질문은 ‘애자일 전환이 개발자의 역량 향상에 얼마나 도움이 되었는가?’</p>
+</blockquote>
+
+<h4 id="소프트웨어-프로젝트를-바라보는-편협한-시각">소프트웨어 프로젝트를 바라보는 편협한 시각</h4>
+
+<blockquote>
+  <p>기술을 이해하지 못하는 사람들이 의사 결정을 하는 것은 프로젝트를 재앙으로 이끄는 지름길이다</p>
+</blockquote>
+
+<h3 id="애자일과-소프트웨어-장인-정신">애자일과 소프트웨어 장인 정신</h3>
+
+<blockquote>
+  <p>애자일은 조직과 비즈니스에 새로운 사고방식을 제공한다. 애자일 방법론들은 가치에 따라서 일을 이해하고, 우선순위를 정하고, 관료주의와 낭비를 줄이고, 사람들에게 권한이양과 동기부여를 하고, 피드백 루프를 만들어 준다. 이것은 기업의 반응속도를 높이고 기민하게 하며, 기업이 <strong>올바른 일</strong>을 하도록 돕는 것이다. 소프트웨어 정신은 개발에 있어서의 프로페셔널리즘이다. 소프트웨어 장인정신은 소프트웨어 개발자로서 일을 더 잘하기 위해 가슴에 품는 일종의 이념이다. (중략) 개발자와 기업들이 <strong>일을 올바르게 수행</strong>하도록 돕는다.</p>
+</blockquote>
+
+<h3 id="요약">요약</h3>
+
+<blockquote>
+  <p>기업이 경쟁력을 유지하려면 소프트웨어를 빨리 개발하면서도 더 나은 품질을 유지할 수 있어야 한다. 애자일 소프트웨어 개발은 피드백 루프를 짧게 하고 변화와 고객의 요구에 빠르게 대응할 수 있는 기회를 준다. 많은 기업들이 애자일의 절차적인 부분에는 많은 관심을 기울이고 있지만 기술적 실행 관례에 대해서는 완전히 무시하고 있는 것이 현실이다.</p>
+
+  <p>애자일 매니페스토에서는 분명하게 ‘절차와 도구보다는 개성과 화합을’ 중요시 함을 선언하고 있지만, 애자일 전환은 온통 절차와 도구로 끝나 버린다. 스크럼을 도입하고, 스탠딩업 미팅을 하고, 백로그 관리툴을 사용하는 것만으로 갑자기 소프트웨어의 품질이 더 좋아지거나 개발자들의 역량이 높아질 수는 없다. 기술적 탁월함의 개선 없이 절차만 개선하는 것은 무의미하다.</p>
+
+  <p>완전한 애자일 전환을 위해서는 프로페셔널 소프트웨어 개발자들이 필요하다. 이들은 기술적 실행 관례, 기술적 전문성 그리고 관련 도구들을 마스터하고 있어야 한다. 정기적으로 계속해서 배포되는 소프트웨어에 대해서도 높은 품질을 유지시키며, 완벽하게 테스트되고 쉽게 변경할 수 있는 소프트웨어를 개발할 수 있어야 한다. 완전한 애자일 전환을 위해서는 기업들이 소프트웨어 장인정신을 품어야 한다.</p>
+</blockquote>
+
+<p>3개월 후, 6개월 후, 1년 후에 읽으면 지금보다 좀 더 깊은 시각으로 바라보고 또 다른 생각을 할 수 있을 거라 기대한다. 나중에 또 곱씹어서 읽어야지.</p>
+
+<h4 id="참고">참고</h4>
+
+<p>산드로 만쿠소 저, 권오인 옮김, 소프트웨어 장인, 길벗, 2015.09.25</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p><a href="https://www.slideshare.net/LuckyYoWu/ss-70771827">개발자가 되기전 누군가 알려주면 좋았을 모든 것들, 유용우</a> <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p><a href="https://www.facebook.com/woowahanTech/posts/2093259717581289">우아한형제들 CTO 김범준이 추천하는 개발 도서</a> <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div>
+
+  <div class="pagination">
+    
+    
+      <span class="next" >
+          <a href="http://localhost:4000/Book-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%9E%A5%EC%9D%B8-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%9E%A5%EC%9D%B8/">
+            [book] 소프트웨어 장인 ➁ 소프트웨어 장인 &#xE001;
+          </a>
+      </span>
+    
+  </div>
+
+  
+<div class="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+
+      /**
+       *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+       *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+      /*
+      var disqus_config = function () {
+      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function () { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script')
+        s.src = 'https://lallaheeee.disqus.com/embed.js'
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s)
+      })()
+
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+        Disqus.</a></noscript>
+</div>
+
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          <!-- Refer to https://codepen.io/ruandre/pen/howFi -->
+<ul class="svg-icon">
+
+  
+
+  
+
+  
+  <li><a href="mailto:ooop0422@gmail.com" class="icon-8 email" title="Email"><svg viewBox="0 0 512 512"><path d="M101.3 141.6v228.9h0.3 308.4 0.8V141.6H101.3zM375.7 167.8l-119.7 91.5 -119.6-91.5H375.7zM127.6 194.1l64.1 49.1 -64.1 64.1V194.1zM127.8 344.2l84.9-84.9 43.2 33.1 43-32.9 84.7 84.7L127.8 344.2 127.8 344.2zM384.4 307.8l-64.4-64.4 64.4-49.3V307.8z"/></svg><!--[if lt IE 9]><em>Email</em><![endif]--></a></li>
+  
+
+  
+  <li><a href="https://www.facebook.com/lallaheeee" class="icon-10 facebook" title="Facebook"><svg viewBox="0 0 512 512"><path d="M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z"/></svg><!--[if lt IE 9]><em>Facebook</em><![endif]--></a></li>
+  
+
+  
+
+  
+  <li><a href="https://github.com/lallaheeee" class="icon-13 github" title="GitHub"><svg viewBox="0 0 512 512"><path d="M256 70.7c-102.6 0-185.9 83.2-185.9 185.9 0 82.1 53.3 151.8 127.1 176.4 9.3 1.7 12.3-4 12.3-8.9V389.4c-51.7 11.3-62.5-21.9-62.5-21.9 -8.4-21.5-20.6-27.2-20.6-27.2 -16.9-11.5 1.3-11.3 1.3-11.3 18.7 1.3 28.5 19.2 28.5 19.2 16.6 28.4 43.5 20.2 54.1 15.4 1.7-12 6.5-20.2 11.8-24.9 -41.3-4.7-84.7-20.6-84.7-91.9 0-20.3 7.3-36.9 19.2-49.9 -1.9-4.7-8.3-23.6 1.8-49.2 0 0 15.6-5 51.1 19.1 14.8-4.1 30.7-6.2 46.5-6.3 15.8 0.1 31.7 2.1 46.6 6.3 35.5-24 51.1-19.1 51.1-19.1 10.1 25.6 3.8 44.5 1.8 49.2 11.9 13 19.1 29.6 19.1 49.9 0 71.4-43.5 87.1-84.9 91.7 6.7 5.8 12.8 17.1 12.8 34.4 0 24.9 0 44.9 0 51 0 4.9 3 10.7 12.4 8.9 73.8-24.6 127-94.3 127-176.4C441.9 153.9 358.6 70.7 256 70.7z"/></svg><!--[if lt IE 9]><em>GitHub</em><![endif]--></a></li>
+  
+
+  
+
+  
+  <li><a href="https://instagram.com/lallaheeee" class="icon-15 instagram" title="Instagram"><svg viewBox="0 0 512 512"><g><path d="M256 109.3c47.8 0 53.4 0.2 72.3 1 17.4 0.8 26.9 3.7 33.2 6.2 8.4 3.2 14.3 7.1 20.6 13.4 6.3 6.3 10.1 12.2 13.4 20.6 2.5 6.3 5.4 15.8 6.2 33.2 0.9 18.9 1 24.5 1 72.3s-0.2 53.4-1 72.3c-0.8 17.4-3.7 26.9-6.2 33.2 -3.2 8.4-7.1 14.3-13.4 20.6 -6.3 6.3-12.2 10.1-20.6 13.4 -6.3 2.5-15.8 5.4-33.2 6.2 -18.9 0.9-24.5 1-72.3 1s-53.4-0.2-72.3-1c-17.4-0.8-26.9-3.7-33.2-6.2 -8.4-3.2-14.3-7.1-20.6-13.4 -6.3-6.3-10.1-12.2-13.4-20.6 -2.5-6.3-5.4-15.8-6.2-33.2 -0.9-18.9-1-24.5-1-72.3s0.2-53.4 1-72.3c0.8-17.4 3.7-26.9 6.2-33.2 3.2-8.4 7.1-14.3 13.4-20.6 6.3-6.3 12.2-10.1 20.6-13.4 6.3-2.5 15.8-5.4 33.2-6.2C202.6 109.5 208.2 109.3 256 109.3M256 77.1c-48.6 0-54.7 0.2-73.8 1.1 -19 0.9-32.1 3.9-43.4 8.3 -11.8 4.6-21.7 10.7-31.7 20.6 -9.9 9.9-16.1 19.9-20.6 31.7 -4.4 11.4-7.4 24.4-8.3 43.4 -0.9 19.1-1.1 25.2-1.1 73.8 0 48.6 0.2 54.7 1.1 73.8 0.9 19 3.9 32.1 8.3 43.4 4.6 11.8 10.7 21.7 20.6 31.7 9.9 9.9 19.9 16.1 31.7 20.6 11.4 4.4 24.4 7.4 43.4 8.3 19.1 0.9 25.2 1.1 73.8 1.1s54.7-0.2 73.8-1.1c19-0.9 32.1-3.9 43.4-8.3 11.8-4.6 21.7-10.7 31.7-20.6 9.9-9.9 16.1-19.9 20.6-31.7 4.4-11.4 7.4-24.4 8.3-43.4 0.9-19.1 1.1-25.2 1.1-73.8s-0.2-54.7-1.1-73.8c-0.9-19-3.9-32.1-8.3-43.4 -4.6-11.8-10.7-21.7-20.6-31.7 -9.9-9.9-19.9-16.1-31.7-20.6 -11.4-4.4-24.4-7.4-43.4-8.3C310.7 77.3 304.6 77.1 256 77.1L256 77.1z"/><path d="M256 164.1c-50.7 0-91.9 41.1-91.9 91.9s41.1 91.9 91.9 91.9 91.9-41.1 91.9-91.9S306.7 164.1 256 164.1zM256 315.6c-32.9 0-59.6-26.7-59.6-59.6s26.7-59.6 59.6-59.6 59.6 26.7 59.6 59.6S288.9 315.6 256 315.6z"/><circle cx="351.5" cy="160.5" r="21.5"/></g></svg><!--[if lt IE 9]><em>Instagram</em><![endif]--></a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  <li><a href="https://www.twitter.com/jekyllrb" class="icon-26 twitter" title="Twitter"><svg viewBox="0 0 512 512"><path d="M419.6 168.6c-11.7 5.2-24.2 8.7-37.4 10.2 13.4-8.1 23.8-20.8 28.6-36 -12.6 7.5-26.5 12.9-41.3 15.8 -11.9-12.6-28.8-20.6-47.5-20.6 -42 0-72.9 39.2-63.4 79.9 -54.1-2.7-102.1-28.6-134.2-68 -17 29.2-8.8 67.5 20.1 86.9 -10.7-0.3-20.7-3.3-29.5-8.1 -0.7 30.2 20.9 58.4 52.2 64.6 -9.2 2.5-19.2 3.1-29.4 1.1 8.3 25.9 32.3 44.7 60.8 45.2 -27.4 21.4-61.8 31-96.4 27 28.8 18.5 63 29.2 99.8 29.2 120.8 0 189.1-102.1 185-193.6C399.9 193.1 410.9 181.7 419.6 168.6z"/></svg><!--[if lt IE 9]><em>Twitter</em><![endif]--></a></li>
+  
+
+  
+
+</ul>
+
+
+
+<p>© 2017 Kiko Now</p>
+
+        </footer>
+      </div>
+    </div>
+
+    
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', '{"url"=>"https://lallaheeee.github.io/"}', 'auto');
+		ga('send', 'pageview', {
+		  'page': '/Book-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%9E%A5%EC%9D%B8-%EC%95%A0%EC%9E%90%EC%9D%BC/',
+		  'title': '[book] 소프트웨어 장인  ➀애자일'
+		});
+	</script>
+	<!-- End Google Analytics -->
+
+
+  </body>
+</html>
