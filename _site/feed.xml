@@ -1,4 +1,85 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-11T03:42:19+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">오늘의 공기</title><subtitle>오늘의 공부 기록</subtitle><entry><title type="html">[book] 소프트웨어 장인 ➁ 소프트웨어 장인</title><link href="http://localhost:4000/Book-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%9E%A5%EC%9D%B8-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%9E%A5%EC%9D%B8/" rel="alternate" type="text/html" title="[book] 소프트웨어 장인 ➁ 소프트웨어 장인" /><published>2018-07-20T00:00:00+09:00</published><updated>2018-07-20T00:00:00+09:00</updated><id>http://localhost:4000/%5BBook%5D%20%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%20%EC%9E%A5%EC%9D%B8%20%E2%9E%81%20%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%20%EC%9E%A5%EC%9D%B8</id><content type="html" xml:base="http://localhost:4000/Book-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%9E%A5%EC%9D%B8-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%9E%A5%EC%9D%B8/">&lt;!--more--&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-11T13:33:23+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">오늘의 공기</title><subtitle>오늘의 공부 기록</subtitle><entry><title type="html">부스트캠프 챌린지 3주차 회고</title><link href="http://localhost:4000/%EB%B6%80%EC%8A%A4%ED%8A%B8%EC%BA%A0%ED%94%84-%EC%B1%8C%EB%A6%B0%EC%A7%80-3%EC%A3%BC%EC%B0%A8-%ED%9A%8C%EA%B3%A0/" rel="alternate" type="text/html" title="부스트캠프 챌린지 3주차 회고" /><published>2019-08-04T00:00:00+09:00</published><updated>2019-08-04T00:00:00+09:00</updated><id>http://localhost:4000/%EB%B6%80%EC%8A%A4%ED%8A%B8%EC%BA%A0%ED%94%84%20%EC%B1%8C%EB%A6%B0%EC%A7%80%203%EC%A3%BC%EC%B0%A8%20%ED%9A%8C%EA%B3%A0</id><content type="html" xml:base="http://localhost:4000/%EB%B6%80%EC%8A%A4%ED%8A%B8%EC%BA%A0%ED%94%84-%EC%B1%8C%EB%A6%B0%EC%A7%80-3%EC%A3%BC%EC%B0%A8-%ED%9A%8C%EA%B3%A0/">&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;이번주는 새로운 것들을 많이 배웠다. &lt;strong&gt;무언가를 정말 잘 이해하기 위해서 비슷하게 동작하는 프로그램을 만들어보았다.&lt;/strong&gt; 아직 완벽하게 소화하지는 못했지만, 흐름을 더 잘 알게 되었다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;스켈레톤 코드&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;생각보다 많은 사람들이 요구사항을 이해하고, 뼈대를 짜기보다 나처럼 무작정 코드를 짠다는 사실이 반가우면서도 놀라웠다. 골똘히 생각하고 분석하는 것은 귀찮은 일이다. 하지만 요구사항에 대해 정확한 이해가 개발 시간을 줄이는데 효과적이었다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;저번 주에 하던 &lt;code class=&quot;highlighter-rouge&quot;&gt;Learning by doing&lt;/code&gt;에 대한 고민과 &lt;code class=&quot;highlighter-rouge&quot;&gt;고민을 어떻게 해결하나&lt;/code&gt; 어느정도 연관이 있다고 느껴졌다.  이렇게 하니까 이렇더라. 이렇게 바꾸는 게 좋을 것같아. 빠른 상황판단과 아니다 싶으면 재빨리 갈아타는 유동성이 필요하다. &lt;strong&gt;어느 부분이 부족했고, 더 나은 방법은 없을까?&lt;/strong&gt; 는 고민이 발전에 도움이 되는 것 같다.&lt;/p&gt;
+
+    &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;기타&quot;&gt;기타&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/TeamCrazyPerformance/http/wiki/[GoF-디자인패턴]-4장-구조-패턴&quot;&gt;디자인패턴 스터디&lt;/a&gt;도 정말 유익했다. 또 수영장에서 선두를 서게 됐다. 일주일을 알차게 보내서 뿌듯하다.&lt;/p&gt;</content><author><name></name></author><category term="회고" /><category term="부스트캠프" /><summary type="html">이번주는 새로운 것들을 많이 배웠다. 무언가를 정말 잘 이해하기 위해서 비슷하게 동작하는 프로그램을 만들어보았다. 아직 완벽하게 소화하지는 못했지만, 흐름을 더 잘 알게 되었다.</summary></entry><entry><title type="html">부스트캠프 챌린지 2주차 회고</title><link href="http://localhost:4000/%EB%B6%80%EC%8A%A4%ED%8A%B8%EC%BA%A0%ED%94%84-%EC%B1%8C%EB%A6%B0%EC%A7%80-2%EC%A3%BC%EC%B0%A8-%ED%9A%8C%EA%B3%A0/" rel="alternate" type="text/html" title="부스트캠프 챌린지 2주차 회고" /><published>2019-07-28T00:00:00+09:00</published><updated>2019-07-28T00:00:00+09:00</updated><id>http://localhost:4000/%EB%B6%80%EC%8A%A4%ED%8A%B8%EC%BA%A0%ED%94%84%20%EC%B1%8C%EB%A6%B0%EC%A7%80%202%EC%A3%BC%EC%B0%A8%20%ED%9A%8C%EA%B3%A0</id><content type="html" xml:base="http://localhost:4000/%EB%B6%80%EC%8A%A4%ED%8A%B8%EC%BA%A0%ED%94%84-%EC%B1%8C%EB%A6%B0%EC%A7%80-2%EC%A3%BC%EC%B0%A8-%ED%9A%8C%EA%B3%A0/">&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;디버깅&lt;/strong&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;breakpoint&lt;/code&gt;를 사용해보는 미션이 있었는데, 평소 &lt;code class=&quot;highlighter-rouge&quot;&gt;console&lt;/code&gt;에 많이 찍는 편이라, 콘솔에 찍어보면서 문제를 해결했다. 지금 사용하는 방법이 불편하더라도, 디버깅을 사용해보자보다 &lt;strong&gt;일단 알고 있는 것으로 해결하자&lt;/strong&gt;는 마음이 더 컸던 것 같다. 디버깅이 낯설어서 겁 먹은 것도 한몫했다.&lt;/p&gt;
+
+    &lt;p&gt;9시에 해설 영상을 보니 콘솔에 출력하며 찍어보는 것은 엄청난 &lt;strong&gt;노가다&lt;/strong&gt;라는 걸 알았다. 어디가 문제인지 모르면, 문제를 찾을 때까지 &amp;gt;&lt;em&gt;끝도 없이&lt;/em&gt;&amp;lt; 찍어봐야하는 반면, 디버깅을 사용하면 여러 변수들의 값들을 한 번에 볼 수 있을 뿐만 아니라, 디버깅 콘솔에 &lt;strong&gt;원하는 변수의 값을 바로 바로 출력&lt;/strong&gt;할 수 있었다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;동기/비동기&lt;/strong&gt;의 개념을 &lt;strong&gt;아는 것&lt;/strong&gt;과 &lt;strong&gt;직접 구현해보는 것&lt;/strong&gt;엔 괴리가 존재한다. &lt;code class=&quot;highlighter-rouge&quot;&gt;Promise&lt;/code&gt;.. 언젠가 동기, 비동기도 익숙해질까?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;this&lt;/code&gt; 덕분에 삽질을 엄청 했다. 별것도 아닌 것들로 많이 헤맨 날을 돌아보면,&lt;/p&gt;
+
+    &lt;p&gt;첫째, 구글링을 &lt;strong&gt;잘&lt;/strong&gt; 해야하고,&lt;/p&gt;
+
+    &lt;p&gt;둘째, 무작정해보는 게 때론 도움이 되지만, 무작정하기 전에 목표을 정확하게 인지하고, 그 과정들이 무엇을 의미하는지 생각을 해야 삽질을 덜 하며,&lt;/p&gt;
+
+    &lt;p&gt;셋째, 한정된 시간내에 &lt;strong&gt;집중력&lt;/strong&gt;은 매우 중요하다&lt;/p&gt;
+
+    &lt;p&gt;마지막으로, 겁을 먹지 않아야 한다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;학습에 대해 고민하게 되는 밤이다. 일단 돌아가는 걸 만들자, &lt;code class=&quot;highlighter-rouge&quot;&gt;doing&lt;/code&gt;을 통해 과정을 이해하는 편이었는데, 정말 나와 맞는 방식일까 의심이 든다. 최근 일주일은 주구장창 &lt;code class=&quot;highlighter-rouge&quot;&gt;doing&lt;/code&gt;만하지 이해가 결여된 느낌이다. 목표는 &lt;code class=&quot;highlighter-rouge&quot;&gt;learning by doing&lt;/code&gt;인데, 오로지 미션해결만을 위한 &lt;code class=&quot;highlighter-rouge&quot;&gt;doing&lt;/code&gt;을 했다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;어떻게하면 이해를 &lt;strong&gt;잘&lt;/strong&gt; 할 수 있고, 어떻게 하면 내가 필요한 지식을 &lt;strong&gt;잘&lt;/strong&gt; 검색할 수 있을까. 몇가지 키워드를 잘 조합해보면 그렇게 어렵지 않은데, 넘쳐나는 정보 중에 정말 내가 필요한 것들을 &lt;strong&gt;선별하고 이해하는 데&lt;/strong&gt; 어려움을 겪는다. 급한 성격과 모니터로 글을 잘 못 읽는 게 한 몫하는 것 같다 .&lt;/p&gt;
+
+    &lt;p&gt;천천히 하자. 많이 이해할수록 외울 것도, 시행 착오도 적어진다. 한정된 시간 덕분에 매우 효율적인 지식 습득을 고민하게 된다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;좋은 개발자란 무엇일까?&lt;/strong&gt; 일단 돌아가게 만들자며 지저분한 코드를 짜면서 어딘가 잘못됐다는 생각이 들었다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;몇일 알고리즘 안풀었다고 엄청 낯설다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/TeamCrazyPerformance/http/wiki/[GoF-디자인패턴]-4장-구조-패턴&quot;&gt;디자인패턴 스터디&lt;/a&gt;에서 발표 사다리타기에 걸렸다. 내가 공부한 바를 설명하면서 &lt;strong&gt;아, 나 이부분 잘 이해하지 못했네&lt;/strong&gt;  깨닫게 됐다. 유쾌한 시간이었다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="회고" /><category term="부스트캠프" /><summary type="html">디버깅 breakpoint를 사용해보는 미션이 있었는데, 평소 console에 많이 찍는 편이라, 콘솔에 찍어보면서 문제를 해결했다. 지금 사용하는 방법이 불편하더라도, 디버깅을 사용해보자보다 일단 알고 있는 것으로 해결하자는 마음이 더 컸던 것 같다. 디버깅이 낯설어서 겁 먹은 것도 한몫했다.</summary></entry><entry><title type="html">부스트캠프 챌린지 1주차 회고</title><link href="http://localhost:4000/%EB%B6%80%EC%8A%A4%ED%8A%B8%EC%BA%A0%ED%94%84-%EC%B1%8C%EB%A6%B0%EC%A7%80-1%EC%A3%BC%EC%B0%A8-%ED%9A%8C%EA%B3%A0/" rel="alternate" type="text/html" title="부스트캠프 챌린지 1주차 회고" /><published>2019-07-20T00:00:00+09:00</published><updated>2019-07-20T00:00:00+09:00</updated><id>http://localhost:4000/%EB%B6%80%EC%8A%A4%ED%8A%B8%EC%BA%A0%ED%94%84%20%EC%B1%8C%EB%A6%B0%EC%A7%80%201%EC%A3%BC%EC%B0%A8%20%ED%9A%8C%EA%B3%A0</id><content type="html" xml:base="http://localhost:4000/%EB%B6%80%EC%8A%A4%ED%8A%B8%EC%BA%A0%ED%94%84-%EC%B1%8C%EB%A6%B0%EC%A7%80-1%EC%A3%BC%EC%B0%A8-%ED%9A%8C%EA%B3%A0/">&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;합격 발표 후 4일 후 바로 입과여서 빠듯했다. 지방러분들은 머물 집도 구해야하니까 힘들었을 것 같다. 본가도 가고 싶었고, 조금 쉬고 싶었는데 눈 깜짝할 새 입과가 다가왔다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;원하던 &lt;code class=&quot;highlighter-rouge&quot;&gt;서울숲 캠프&lt;/code&gt;로 배정받았다. 교통의 요지 강남이 수요가 더 넘쳤는지, 강남을 선택하신 몇 분이 서울숲으로 배정받은 것 같았다. 개인적으로 난 &lt;code class=&quot;highlighter-rouge&quot;&gt;패스트파이브&lt;/code&gt; 엄청..매우..정말.. 좋다. 도보로 이동할 수 있을만큼 가까운 게 제일 좋고, 트렌디하고 &lt;code class=&quot;highlighter-rouge&quot;&gt;깔끔한 인테리어&lt;/code&gt;와 무제한으로 이용할 수 있는 &lt;code class=&quot;highlighter-rouge&quot;&gt;커피&lt;/code&gt; 도 좋다. 거기다 &lt;code class=&quot;highlighter-rouge&quot;&gt;시리얼&lt;/code&gt; 도 있어서 아침에 수영하고 먹었는데, 한주동안 정말 &lt;strong&gt;든든&lt;/strong&gt;했다. 그 밖에 &lt;code class=&quot;highlighter-rouge&quot;&gt;드래프트 비어&lt;/code&gt;도 있고, &lt;code class=&quot;highlighter-rouge&quot;&gt;과일수&lt;/code&gt;도 있고, 2층 라운지 좋다&lt;/p&gt;
+
+    &lt;p&gt;릴레이 프로젝트 중에 &lt;code class=&quot;highlighter-rouge&quot;&gt;패스트파이브 뽕뽑기&lt;/code&gt; 랭킹을 매기는 웹사이트 주제가 나왔는데 이미 있었다면 아마 내가 1위였을것이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;4일을 미션을 해결하고 금요일 하루 &lt;code class=&quot;highlighter-rouge&quot;&gt;릴레이 프로젝트&lt;/code&gt;를 진행하는데, 엄청 &lt;code class=&quot;highlighter-rouge&quot;&gt;유쾌한&lt;/code&gt; 시간이었다. 처음 본 8명의 &lt;code class=&quot;highlighter-rouge&quot;&gt;부캠러&lt;/code&gt;들과 &lt;strong&gt;약 6시간동안만&lt;/strong&gt; 함께하는 팀이었지만, 주어진 주제에 대해 가벼운 마음으로 즐기면서 기획할 수 있어서 낯선 어색함이 빨리 해소된 느낌이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;미션은 첫주차라 쉬웠다. 물론 아직도  &lt;code class=&quot;highlighter-rouge&quot;&gt;reduce&lt;/code&gt; 를 제대로 이해하지 못했고, 그날 많이 헤맸지만…&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;js&lt;/code&gt;는 책 예제 몇번 따라쓴 거 빼고 처음이라 많이 낯설었는데, 과제를 해결하며 익숙해져가고 있다. 나에게 딱 맞는 학습 방법인 것 같다. 다만 코드 리뷰할 때, 팀원 모두가 자스가 처음이라면 갈길을 잃어버린 표류자가 되는 기분이다. 9시에 모두 &lt;code class=&quot;highlighter-rouge&quot;&gt;PR&lt;/code&gt;이 끝났을때 &lt;code class=&quot;highlighter-rouge&quot;&gt;약 160개의 PR의 바다&lt;/code&gt;를 헤엄치면 되는데.. 난 &lt;code class=&quot;highlighter-rouge&quot;&gt;수영&lt;/code&gt;을 좋아하니까..&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;자신감이 부족하다는 생각을 평소에 잘 하지 않았는데, 어떤 면에서 &lt;code class=&quot;highlighter-rouge&quot;&gt;자기 PR&lt;/code&gt; 이 좀 부족하다는 생각이 들었다. 가만히 있으면 절반이라도 가는데, 나서서 &lt;code class=&quot;highlighter-rouge&quot;&gt;셀프 디스&lt;/code&gt;를 하는 경향이 있는 것 같다. (예를 들어, 의견을 말할 때 저의 하찮은 의견이지만.. 이라고 시작과 끝을 맺는다거나) &lt;code class=&quot;highlighter-rouge&quot;&gt;잘해야된다&lt;/code&gt; 는 심리적 압박감에  &lt;code class=&quot;highlighter-rouge&quot;&gt;잘못하면 어떡하지&lt;/code&gt; 조바심을 많이 가지게 되는듯. 한 주 내내 그랬는데, 고쳐야겠다는 생각이 들었다. 아직도 어떤 컨셉을 잡아야 되나 싶기도 하고.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;사람들을 만나서 소통하며 공부하는 건 유익하다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;arrow 함수, 함수형 프로그래밍은 낯설다. &lt;code class=&quot;highlighter-rouge&quot;&gt;javascipt&lt;/code&gt; 공부를 좀 더 해야겠다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="회고" /><category term="부스트캠프" /><summary type="html">합격 발표 후 4일 후 바로 입과여서 빠듯했다. 지방러분들은 머물 집도 구해야하니까 힘들었을 것 같다. 본가도 가고 싶었고, 조금 쉬고 싶었는데 눈 깜짝할 새 입과가 다가왔다.</summary></entry><entry><title type="html">[book] 소프트웨어 장인 ➁ 소프트웨어 장인</title><link href="http://localhost:4000/Book-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%9E%A5%EC%9D%B8-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%9E%A5%EC%9D%B8/" rel="alternate" type="text/html" title="[book] 소프트웨어 장인 ➁ 소프트웨어 장인" /><published>2018-07-20T00:00:00+09:00</published><updated>2018-07-20T00:00:00+09:00</updated><id>http://localhost:4000/%5BBook%5D%20%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%20%EC%9E%A5%EC%9D%B8%20%E2%9E%81%20%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%20%EC%9E%A5%EC%9D%B8</id><content type="html" xml:base="http://localhost:4000/Book-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%9E%A5%EC%9D%B8-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%9E%A5%EC%9D%B8/">&lt;!--more--&gt;
 
 &lt;h3 id=&quot;매니페스토&quot;&gt;매니페스토&lt;/h3&gt;
 
